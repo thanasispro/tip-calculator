@@ -95,7 +95,7 @@ function App() {
     });
   };
 
-  const { bill, tipPercent, people, activeTip, customTip } = formValues;
+  const { bill, people, activeTip, customTip } = formValues;
   const { tipAmountPerPerson, totalAmountPerPerson } = results;
 
   const isFormValid = bill !== undefined && people !== undefined && people > 0;
