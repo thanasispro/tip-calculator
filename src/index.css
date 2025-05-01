@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-green-400: hsl(172, 67%, 45%);
+  --color-neutral-green-750: hsl(183, 79%, 24%);
+  --color-neutral-green-800: hsl(183, 85%, 21%);
+  --color-neutral-green-900: hsl(183, 100%, 15%);
+  --color-neutral-green-200: hsl(173, 61%, 77%);
+  --color-neutral-grey-600: hsl(180, 25%, 32%);
+  --color-neutral-grey-550: hsl(180, 18%, 40%);
+  --color-neutral-grey-500: hsl(186, 14%, 43%);
+  --color-neutral-grey-400: hsl(184, 14%, 56%);
+  --color-neutral-grey-200: hsl(185, 41%, 84%);
+  --color-neutral-grey-50: hsl(189, 47%, 97%);
+  --color-neutral-orange-400: hsl(13, 70%, 60%);
+  --color-neutral-white: hsl(0, 100%, 100%);
+}
+
+@layer base {
+  .text-preset-1 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -1px;
+  }
+
+  .text-preset-2 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: -0.67px;
+  }
+
+  .text-preset-3 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0px;
+  }
+
+  .text-preset-4 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  }
+  .text-preset-5 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+  }
+  .text-preset-6 {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0px;
+  }
+}
