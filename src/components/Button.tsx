@@ -15,11 +15,21 @@ const Button: React.FC<ButtonProps> = ({ text, className, variant = 'primary', d
       ? 'bg-neutral-green-900 text-white text-preset-3'
       : 'bg-primary-green-400 text-neutral-green-900 text-preset-4';
 
-  const activeClasses = active ? 'bg-primary-green-400 text-neutral-green-900' : '';
+  const disabledClasses = disabled
+    ? 'bg-neutral-green-750 text-neutral-green-800 opacity-20 cursor-not-allowed hover:bg-neutral-green-750 hover:text-neutral-green-800'
+    : 'hover:cursor-pointer';
+
+  const activeClasses = active
+    ? 'bg-primary-green-400 text-neutral-green-900 !text-neutral-green-900'
+    : '';
+
+  const hoverClasses = !disabled && !active
+    ? 'hover:bg-neutral-green-200 hover:text-neutral-green-900'
+    : '';
 
   return (
     <button
-      className={`flex flex-row justify-center items-center p-2 gap-2 isolate rounded-[5px] ${baseClasses} hover:bg-primary-green-400 hover:text-neutral-green-900 ${className} ${disabled ? 'bg-neutral-green-750 text-neutral-green-800 opacity-20 cursor-not-allowed hover:bg-neutral-green-750 hover:text-neutral-green-800' : 'hover:cursor-pointer'} ${activeClasses}`}
+      className={`flex flex-row justify-center items-center p-2 gap-2 isolate rounded-[5px] ${baseClasses} ${hoverClasses} ${className} ${disabledClasses} ${activeClasses}`}
       disabled={disabled}
       onClick={onClick}
     >

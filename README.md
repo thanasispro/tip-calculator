@@ -17,4 +17,4 @@ A simple tip calculator application.
 
 ## Frontend Mentor
 
-This project is a solution to the [Tip calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-usYkKQrZfm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This project is a solution to the [Tip calculator challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
