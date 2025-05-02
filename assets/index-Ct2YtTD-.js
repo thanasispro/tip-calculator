@@ -51,7 +51,7 @@ Error generating stack: `+u.message+`
         flex flex-col items-center justify-center 
         bg-neutral-grey-200
       `,children:[Z.jsx("img",{src:"./images/logo.svg",alt:"Logo",className:`
-          mt-[50px] lg:mt-0 
+          mt-[50px] lg:mt-[163px]
           mb-[40px] lg:mb-[87.86px]
         `}),Z.jsxs("div",{className:`
           w-full bg-white 
