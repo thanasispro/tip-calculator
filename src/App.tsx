@@ -20,7 +20,7 @@ function App() {
     <main
       className={`
         min-h-screen 
-        flex flex-col items-center justify-center 
+        flex flex-col items-center justify-start 
         bg-neutral-grey-200
       `}
     >
