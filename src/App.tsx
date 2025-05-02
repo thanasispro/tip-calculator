@@ -14,7 +14,11 @@ function App() {
     resetValues,
   } = useValues();
 
-  const { tipAmountPerPerson, totalAmountPerPerson } = useResult(bill, people, tipPercent);
+  const { tipAmountPerPerson, totalAmountPerPerson } = useResult(
+    bill,
+    people,
+    tipPercent
+  );
 
   return (
     <main
@@ -24,6 +28,8 @@ function App() {
         bg-neutral-grey-200
       `}
     >
+      <h1 className="sr-only">Tip Calculator</h1>
+
       <img
         src="./images/logo.svg"
         alt="Logo"
