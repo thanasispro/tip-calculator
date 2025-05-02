@@ -22,26 +22,26 @@ const Result: React.FC<ResultProps> = ({
       aria-labelledby="result-heading"
     >
       <h2 id="result-heading" className="sr-only">Calculation Results</h2>
-      <dl className="flex flex-col lg:gap-4 gap-2">
+      <div className="flex flex-col lg:gap-4 gap-2">
         <div className="flex justify-between items-center">
           <div>
-            <dt className="text-white text-preset-5">Tip Amount</dt>
-            <dd className="text-neutral-grey-500 text-preset-6">/ per person</dd>
+            <p className="text-white text-preset-5">Tip Amount</p>
+            <p className="text-neutral-grey-500 text-preset-6">/ per person</p>
           </div>
-          <dd className="text-primary-green-400 text-preset-1" aria-live="polite">
+          <p className="text-primary-green-400 text-preset-1" aria-live="polite">
             ${tipAmountPerPerson.toFixed(2)}
-          </dd>
+          </p>
         </div>
         <div className="flex justify-between items-center">
           <div>
-            <dt className="text-white text-preset-5">Total</dt>
-            <dd className="text-neutral-grey-500 text-preset-6">/ per person</dd>
+            <p className="text-white text-preset-5">Total</p>
+            <p className="text-neutral-grey-500 text-preset-6">/ per person</p>
           </div>
-          <dd className="text-primary-green-400 text-preset-1" aria-live="polite">
+          <p className="text-primary-green-400 text-preset-1" aria-live="polite">
             ${totalAmountPerPerson.toFixed(2)}
-          </dd>
+          </p>
         </div>
-      </dl>
+      </div>
       <Button
         text="RESET"
         variant="secondary"
