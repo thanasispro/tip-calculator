@@ -17,7 +17,7 @@ function App() {
   const { tipAmountPerPerson, totalAmountPerPerson } = useResult(bill, people, tipPercent);
 
   return (
-    <div
+    <main
       className={`
         min-h-screen 
         flex flex-col items-center justify-center 
@@ -29,7 +29,7 @@ function App() {
         alt="Logo"
         className={`
           mt-[50px] lg:mt-0 
-          mb-[40px] lg-mb-[87.86px]
+          mb-[40px] lg:mb-[87.86px]
         `}
       />
       <div
@@ -124,7 +124,7 @@ function App() {
           disabled={!bill}
         />
       </div>
-    </div>
+    </main>
   );
 }
 
