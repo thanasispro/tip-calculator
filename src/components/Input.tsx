@@ -61,7 +61,7 @@ const Input: React.FC<InputProps> = ({
           type="number"
           id={id}
           placeholder={placeholder}
-          className={`w-full py-2 bg-neutral-grey-50 ${
+          className={`w-full bg-neutral-grey-50 ${
             iconSrc ? "pl-10" : "pl-[10px]"
           } border-2 ${
             error
