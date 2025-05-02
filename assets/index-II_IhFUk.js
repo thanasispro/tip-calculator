@@ -65,6 +65,7 @@ Error generating stack: `+u.message+`
             lg:w-1/2 
             flex flex-col gap-6 
             lg:gap-[40px]
+            lg:py-[16.5px]
           `,children:[Z.jsx(ai,{iconSrc:"./images/icon-dollar.svg",id:"bill",label:"Bill",onChange:K,value:z}),Z.jsxs("div",{className:"flex flex-col gap-2",children:[Z.jsx("p",{className:"text-neutral-grey-500 text-preset-5",children:"Select Tip %"}),Z.jsxs("div",{className:`
                 grid grid-cols-2 md:grid-cols-3 
                 gap-4 items-center
