@@ -48,6 +48,7 @@ function App() {
             lg:w-1/2 
             flex flex-col gap-6 
             lg:gap-[40px]
+            lg:py-[16.5px]
           `}
         >
           <Input
