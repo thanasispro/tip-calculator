@@ -28,7 +28,7 @@ function App() {
         src="./images/logo.svg"
         alt="Logo"
         className={`
-          mt-[50px] lg:mt-0 
+          mt-[50px] lg:mt-[163px]
           mb-[40px] lg:mb-[87.86px]
         `}
       />
