@@ -56,7 +56,7 @@ Error generating stack: `+u.message+`
         `}),Z.jsxs("div",{className:`
           w-full bg-white 
           py-8 md:py-[75.5px] lg:py-6 
-          px-6 md:px-[54px] lg:px-6 
+          px-6 md:px-[54px] lg:px-8 
           rounded-t-[25px] md:rounded-b-[25px] 
           md:w-2/3 lg:w-1/2 xl:w-1/3 
           flex flex-col lg:flex-row 
